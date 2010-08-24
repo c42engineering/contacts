@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'spec'
 require 'mocha'
-require 'active_support'
 
 require 'cgi'
 require 'fake_web'

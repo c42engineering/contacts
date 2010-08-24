@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec", "~> 1.1.3"
   s.add_development_dependency "mocha", "~> 0.9.0"
   s.add_development_dependency "fakeweb", "~> 1.2.4"
-  s.add_development_dependency "activesupport", "~> 2.3.8"
   
   s.files        = Dir.glob("{lib}/**/*") + %w(LICENSE README.rdoc)
   s.require_path = 'lib'
