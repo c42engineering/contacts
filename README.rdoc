@@ -23,6 +23,12 @@ starters); feel free to contribute.
 
 Author: <b>Mislav Marohnić</b> (mislav.marohnic@gmail.com)
 
+== Installation
+
+This fork of the contacts codebase is available as a gem, prefixed with 'mislav' to avoid conflicts with the original contacts gem. Do 
+  gem install mislav_contacts
+to install.
+
 == Dependencies
 
 Please note that you will need to install the json gem if you are not using this gem as part of a Rails project.

@@ -42,5 +42,10 @@ module Contacts
       super "exceeded maximum of #{MAX_REDIRECTS} redirects (Location: #{location})"
     end
   end
-  
 end
+
+require 'contacts/flickr'
+require 'contacts/google'
+require 'contacts/windows_live'
+require 'contacts/yahoo'
+
