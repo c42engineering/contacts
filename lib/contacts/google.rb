@@ -1,5 +1,3 @@
-require 'contacts'
-
 require 'rubygems'
 require 'hpricot'
 require 'cgi'

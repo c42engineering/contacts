@@ -23,6 +23,10 @@ starters); feel free to contribute.
 
 Author: <b>Mislav Marohnić</b> (mislav.marohnic@gmail.com)
 
+== Dependencies
+
+Please note that you will need to install the json gem if you are not using this gem as part of a Rails project.
+
 == Documentation auto-generated from specifications
 
 Contacts::Google.authentication_url

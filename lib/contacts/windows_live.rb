@@ -1,4 +1,3 @@
-require 'contacts'
 require File.join(File.dirname(__FILE__), %w{.. .. vendor windowslivelogin})
 
 require 'rubygems'
