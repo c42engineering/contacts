@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'hpricot'
-require 'md5'
+RUBY_VERSION < '1.9' ? (require 'md5') : (require 'digest/md5')
 require 'cgi'
 require 'time'
 require 'zlib'

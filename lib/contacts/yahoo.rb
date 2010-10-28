@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'hpricot'
-require 'md5'
+RUBY_VERSION < '1.9' ? (require 'md5') : (require 'digest/md5')
 require 'net/https'
 require 'uri'
 require 'yaml'
@@ -52,6 +52,7 @@ module Contacts
   # 2. Import contacts from Yahoo Mail and deliver it inside an Array
   #
   class Yahoo
+    MD5 = Digest::MD5 unless RUBY_VERSION < '1.9' 
     AUTH_DOMAIN = "https://api.login.yahoo.com"
     AUTH_PATH = "/WSLogin/V1/wslogin?appid=#appid&ts=#ts"
     CREDENTIAL_PATH = "/WSLogin/V1/wspwtoken_login?appid=#appid&ts=#ts&token=#token"
